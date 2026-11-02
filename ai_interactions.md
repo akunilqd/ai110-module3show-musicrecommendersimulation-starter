@@ -59,4 +59,4 @@ The baseline-to-guarded change is visible: Iron Horizon leads the unrestricted r
 
 ## Reflection
 
-AI was useful for connecting the starter's two interfaces, generating edge cases, and producing documentation from real runs. Its suggestions still required constraints: extra features needed explicit ranges and scoring tests, and diversity claims needed to be limited to measured artist exposure. The next useful improvement would be independent listener feedback and broader metadata coverage, because consistency tests cannot tell whether a human enjoys the result.
+AI helped with the parts of this project that needed to fit together: the two starter interfaces, the scoring rules, the tests, and the examples in the documentation. But a suggestion still needed a way to check it. Adding more song attributes was only useful if those attributes actually affected the score. Adding an artist penalty was only useful if it changed who appeared in the results. The tests and captured runs make those changes visible. The next step would be getting feedback from listeners, because correct calculations alone cannot tell us whether a playlist is enjoyable.

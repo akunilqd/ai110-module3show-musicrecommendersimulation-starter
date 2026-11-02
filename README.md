@@ -207,9 +207,9 @@ The harness runs 13 fixed cases and exits nonzero on any failure. [docs/evaluati
 
 ## Reflection and AI collaboration
 
-The main engineering lesson is that ranking and explanation must share the same arithmetic. Otherwise a plausible explanation can conceal the actual reason for a selection. A second lesson is that genre weighting and artist diversity encode different goals: the closest individual track may lose a place to improve playlist variety. The acoustic results also show why a larger score across different profiles does not imply better quality: more active features add more possible points.
+This project shows how much a few scoring choices can change a recommendation. A song can move up because it matches the listener's mood, or move down because its artist already appeared. Showing the points beside each result makes those choices easier to understand. It also makes the limits clearer: a higher score means a closer match to the chosen rules, not necessarily a better song.
 
-The coding assistant generated and checked this implementation, data expansion, tests, and documentation. The development choices accepted and revised during this session are recorded in [ai_interactions.md](ai_interactions.md). This reflection describes observable engineering results; the student should review it and add their own experience before submission. No personal listening assessment or manual student verification is claimed.
+AI helped build the code, expand the fictional catalog, write tests, and document the results. The tests check that the scoring and explanations agree, but listener feedback would still be needed to judge whether the playlists are enjoyable. The longer [reflection in the model card](model_card.md#development-reflection) discusses the experiments and what I would try next. [ai_interactions.md](ai_interactions.md) records the AI assistance and the design choices that were kept or changed.
 
 ## Rubric evidence
 
