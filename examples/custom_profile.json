@@ -1,0 +1,11 @@
+{
+  "genre": "folk",
+  "mood": "relaxed",
+  "energy": 0.25,
+  "acousticness": 0.95,
+  "instrumentalness": 0.2,
+  "popularity": 25,
+  "release_year": 2010,
+  "duration_seconds": 200,
+  "language": "english"
+}

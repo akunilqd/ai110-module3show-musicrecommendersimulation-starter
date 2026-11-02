@@ -1,0 +1,15 @@
+flowchart TD
+    A[CLI arguments and preset or JSON preferences] --> C[Validate profile and ranking settings]
+    B[Song CSV] --> D[Load and validate catalog]
+    C --> E[Filter clean-only and maximum duration constraints]
+    D --> E
+    E --> F[Score features with selected strategy]
+    F --> G[Greedy ranking with artist penalty]
+    G --> H[Verify catalog membership, count, scores, order and reasons]
+    H --> I[ASCII table or JSON with notices and audit events]
+    C -->|Invalid input| J[Error message and exit code 2]
+    D -->|Invalid data| J
+    H -->|Failed check| J
+    K[Evaluation cases and corruption probes] --> E
+    K --> H
+    K --> L[Pass/fail summary and optional JSON report]

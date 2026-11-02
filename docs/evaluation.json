@@ -1,0 +1,71 @@
+{
+  "passed": 13,
+  "total": 13,
+  "cases": [
+    {
+      "case": "pop",
+      "passed": true,
+      "detail": "top track = Golden Hour; 3 sorted recommendations"
+    },
+    {
+      "case": "lofi",
+      "passed": true,
+      "detail": "top track = Quiet Pages; 3 sorted recommendations"
+    },
+    {
+      "case": "rock",
+      "passed": true,
+      "detail": "top track = Iron Horizon; 3 sorted recommendations"
+    },
+    {
+      "case": "edm",
+      "passed": true,
+      "detail": "top track = Pulse Circuit; 3 sorted recommendations"
+    },
+    {
+      "case": "acoustic",
+      "passed": true,
+      "detail": "top track = Porchlight Letter; 3 sorted recommendations"
+    },
+    {
+      "case": "artist diversity",
+      "passed": true,
+      "detail": "top-2 unique artists: 1 -> 2"
+    },
+    {
+      "case": "clean and short",
+      "passed": true,
+      "detail": "explicit tracks removed; all durations <= 225; top = Wild Current"
+    },
+    {
+      "case": "no eligible tracks",
+      "passed": true,
+      "detail": "0 results; constraints preserved with a notice"
+    },
+    {
+      "case": "unknown genre",
+      "passed": true,
+      "detail": "5 results from remaining preferences; missing-genre notice"
+    },
+    {
+      "case": "out-of-range energy",
+      "passed": true,
+      "detail": "rejected: energy must be between 0 and 1"
+    },
+    {
+      "case": "nonfinite energy",
+      "passed": true,
+      "detail": "rejected: energy must be between 0 and 1"
+    },
+    {
+      "case": "misspelled preference",
+      "passed": true,
+      "detail": "rejected: unknown preference(s): energi"
+    },
+    {
+      "case": "fabricated explanation",
+      "passed": true,
+      "detail": "rejected: output guardrail: ordering or explanation mismatch"
+    }
+  ]
+}

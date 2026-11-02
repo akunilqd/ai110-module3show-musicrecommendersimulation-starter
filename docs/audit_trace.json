@@ -1,0 +1,147 @@
+{
+  "rock": {
+    "recommendations": [
+      [
+        {
+          "id": 15,
+          "title": "Wild Current",
+          "artist": "Granite Sky",
+          "genre": "rock",
+          "mood": "intense",
+          "energy": 0.88,
+          "tempo_bpm": 145.0,
+          "valence": 0.52,
+          "danceability": 0.6,
+          "acousticness": 0.12,
+          "instrumentalness": 0.07,
+          "popularity": 47.0,
+          "release_year": 2008,
+          "duration_seconds": 224,
+          "language": "english",
+          "explicit": false
+        },
+        5.32,
+        "genre match (+2.000); mood match (+1.000); energy 0.88 vs 0.95 (+0.930); tempo_bpm 145 vs 155 (+0.900); acousticness 0.12 vs 0.1 (+0.490)"
+      ],
+      [
+        {
+          "id": 16,
+          "title": "Pulse Circuit",
+          "artist": "Prism Engine",
+          "genre": "edm",
+          "mood": "intense",
+          "energy": 0.97,
+          "tempo_bpm": 140.0,
+          "valence": 0.7,
+          "danceability": 0.96,
+          "acousticness": 0.01,
+          "instrumentalness": 0.8,
+          "popularity": 76.0,
+          "release_year": 2024,
+          "duration_seconds": 218,
+          "language": "instrumental",
+          "explicit": false
+        },
+        3.285,
+        "genre mismatch (+0.000); mood match (+1.000); energy 0.97 vs 0.95 (+0.980); tempo_bpm 140 vs 155 (+0.850); acousticness 0.01 vs 0.1 (+0.455)"
+      ],
+      [
+        {
+          "id": 5,
+          "title": "Gym Hero",
+          "artist": "Max Pulse",
+          "genre": "pop",
+          "mood": "intense",
+          "energy": 0.93,
+          "tempo_bpm": 132.0,
+          "valence": 0.77,
+          "danceability": 0.88,
+          "acousticness": 0.05,
+          "instrumentalness": 0.01,
+          "popularity": 90.0,
+          "release_year": 2024,
+          "duration_seconds": 195,
+          "language": "english",
+          "explicit": false
+        },
+        3.225,
+        "genre mismatch (+0.000); mood match (+1.000); energy 0.93 vs 0.95 (+0.980); tempo_bpm 132 vs 155 (+0.770); acousticness 0.05 vs 0.1 (+0.475)"
+      ],
+      [
+        {
+          "id": 17,
+          "title": "Afterglow Floor",
+          "artist": "Signal Tide",
+          "genre": "edm",
+          "mood": "happy",
+          "energy": 0.86,
+          "tempo_bpm": 128.0,
+          "valence": 0.89,
+          "danceability": 0.93,
+          "acousticness": 0.03,
+          "instrumentalness": 0.65,
+          "popularity": 64.0,
+          "release_year": 2021,
+          "duration_seconds": 204,
+          "language": "english",
+          "explicit": false
+        },
+        2.105,
+        "genre mismatch (+0.000); mood mismatch (+0.000); energy 0.86 vs 0.95 (+0.910); tempo_bpm 128 vs 155 (+0.730); acousticness 0.03 vs 0.1 (+0.465)"
+      ],
+      [
+        {
+          "id": 11,
+          "title": "Golden Hour",
+          "artist": "Neon Echo",
+          "genre": "pop",
+          "mood": "happy",
+          "energy": 0.8,
+          "tempo_bpm": 120.0,
+          "valence": 0.9,
+          "danceability": 0.85,
+          "acousticness": 0.12,
+          "instrumentalness": 0.01,
+          "popularity": 86.0,
+          "release_year": 2024,
+          "duration_seconds": 202,
+          "language": "english",
+          "explicit": false
+        },
+        1.9900000000000002,
+        "genre mismatch (+0.000); mood mismatch (+0.000); energy 0.8 vs 0.95 (+0.850); tempo_bpm 120 vs 155 (+0.650); acousticness 0.12 vs 0.1 (+0.490)"
+      ]
+    ],
+    "eligible_count": 14,
+    "warnings": [],
+    "audit": [
+      {
+        "stage": "validate",
+        "status": "passed",
+        "catalog_count": 24
+      },
+      {
+        "stage": "filter",
+        "eligible_count": 14,
+        "clean_only": true,
+        "max_duration": 225
+      },
+      {
+        "stage": "rank",
+        "mode": "genre-first",
+        "artist_penalty": 0.75,
+        "selected_ids": [
+          15,
+          16,
+          5,
+          17,
+          11
+        ]
+      },
+      {
+        "stage": "output_check",
+        "status": "passed"
+      }
+    ]
+  }
+}

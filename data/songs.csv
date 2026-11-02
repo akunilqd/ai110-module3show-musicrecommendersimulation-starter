@@ -1,11 +1,25 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,instrumentalness,popularity,release_year,duration_seconds,language,explicit
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,0.02,82,2023,205,english,false
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,0.96,38,2021,182,instrumental,false
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,0.05,67,2018,238,english,true
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,0.98,29,2020,174,instrumental,false
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,0.01,90,2024,195,english,false
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,1.00,21,2017,320,instrumental,false
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,0.85,33,2012,265,instrumental,false
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,0.90,54,2022,240,instrumental,false
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,0.99,35,2022,190,instrumental,false
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,0.02,61,2023,212,english,false
+11,Golden Hour,Neon Echo,pop,happy,0.80,120,0.90,0.85,0.12,0.01,86,2024,202,english,false
+12,Open Windows,Daylight Club,pop,happy,0.72,115,0.88,0.78,0.25,0.03,63,2019,198,english,false
+13,Quiet Pages,Paper Lanterns,lofi,chill,0.29,74,0.55,0.50,0.91,0.99,24,2023,168,instrumental,false
+14,Iron Horizon,Voltline,rock,intense,0.96,158,0.35,0.54,0.08,0.04,71,2020,248,english,true
+15,Wild Current,Granite Sky,rock,intense,0.88,145,0.52,0.60,0.12,0.07,47,2008,224,english,false
+16,Pulse Circuit,Prism Engine,edm,intense,0.97,140,0.70,0.96,0.01,0.80,76,2024,218,instrumental,false
+17,Afterglow Floor,Signal Tide,edm,happy,0.86,128,0.89,0.93,0.03,0.65,64,2021,204,english,false
+18,Porchlight Letter,Willow Thread,folk,relaxed,0.24,82,0.63,0.42,0.97,0.15,22,2010,200,english,false
+19,Autumn River,Juniper Trail,folk,sad,0.30,88,0.28,0.38,0.93,0.10,31,2014,226,english,false
+20,City Verses,Metro Poet,hip-hop,confident,0.78,96,0.62,0.90,0.12,0.01,69,2022,187,english,true
+21,Barrio Sol,Luna Calle,latin,happy,0.83,104,0.92,0.94,0.30,0.02,58,2023,208,spanish,false
+22,Velvet Evening,Amber Keys,rnb,relaxed,0.45,84,0.70,0.72,0.48,0.03,44,2016,231,english,false
+23,Winter Prelude,Aria Vale,classical,reflective,0.20,64,0.40,0.18,0.99,1.00,19,1998,286,instrumental,false
+24,Desert Strings,Saffron Ensemble,world,reflective,0.52,106,0.66,0.62,0.88,0.95,17,2005,252,instrumental,false
